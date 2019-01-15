@@ -1,0 +1,35 @@
+<!-- Lee and Jez-->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+  </head>
+  <body>
+    <input type="text" id="screen" onloadeddata="this.value=''" value="">
+    <br/>
+    <input type="button" id="7" onclick=buttonPress(this.id) value="7">
+    <input type="button" id="8" onclick=buttonPress(this.id) value="8">
+    <input type="button" id="9" onclick=buttonPress(this.id) value="9">
+      <input type="button" id="add" onclick=buttonPress(this.id) value="+">
+    <br/>
+    <input type="button" id="4" onclick=buttonPress(this.id) value="4">
+    <input type="button" id="5" onclick=buttonPress(this.id) value="5">
+    <input type="button" id="6" onclick=buttonPress(this.id) value="6">
+      <input type="button" id="sub" onclick=buttonPress(this.id) value="-">
+    <br/>
+    <input type="button" id="1" onclick=buttonPress(this.id) value="1">
+    <input type="button" id="2" onclick=buttonPress(this.id) value="2">
+    <input type="button" id="3" onclick=buttonPress(this.id) value="3">
+        <input type="button" id="mul" onclick=buttonPress(this.id) value="*">
+    <br/>
+    <input type="button" id="0" onclick=buttonPress(this.id) value="0">
+    <input type="button" id="dp" onclick=buttonPress(this.id) value=".">
+
+      <input type="button" id="eq" onclick=calculateSum() value="=">
+
+    <input type="button" id="divi" onclick=buttonPress(this.id) value="/">
+    <br/>
+    <script src="calculator.js" charset="utf-8"></script>
+  </body>
+</html>
